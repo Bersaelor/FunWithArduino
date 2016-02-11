@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7112E06A1C4CED19004FD34D /* Arduino.png in Resources */ = {isa = PBXBuildFile; fileRef = 7112E0691C4CED19004FD34D /* Arduino.png */; };
+		7112E06C1C4D0E08004FD34D /* 285px-Light_bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7112E06B1C4D0E08004FD34D /* 285px-Light_bulb.png */; };
+		7112E0701C4D29FA004FD34D /* temperature-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 7112E06F1C4D29FA004FD34D /* temperature-2-xxl.png */; };
+		7112E0721C4D2A22004FD34D /* Measurement-Units-Humidity-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7112E0711C4D2A22004FD34D /* Measurement-Units-Humidity-icon.png */; };
+		7112E0741C4D4435004FD34D /* led-diode-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 7112E0731C4D4435004FD34D /* led-diode-xxl.png */; };
 		715AA17F1C4C25180026D93C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715AA17E1C4C25180026D93C /* AppDelegate.m */; };
 		715AA1821C4C25180026D93C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715AA1811C4C25180026D93C /* main.m */; };
 		715AA1851C4C25180026D93C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715AA1841C4C25180026D93C /* ViewController.m */; };
 		715AA1871C4C25180026D93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715AA1861C4C25180026D93C /* Assets.xcassets */; };
 		715AA18A1C4C25180026D93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715AA1881C4C25180026D93C /* Main.storyboard */; };
+		715AA1C01C4C3C040026D93C /* ORSSerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715AA1BD1C4C3BD70026D93C /* ORSSerial.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		715AA1BC1C4C3BD70026D93C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715AA1B71C4C3BD70026D93C /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DCA89121A2BB106009285EB;
+			remoteInfo = ORSSerial;
+		};
+		715AA1BE1C4C3BD70026D93C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715AA1B71C4C3BD70026D93C /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D7472131B6D7767002D8B10;
+			remoteInfo = "ORSSerialPort Tests";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7112E0691C4CED19004FD34D /* Arduino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arduino.png; sourceTree = "<group>"; };
+		7112E06B1C4D0E08004FD34D /* 285px-Light_bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "285px-Light_bulb.png"; sourceTree = "<group>"; };
+		7112E06F1C4D29FA004FD34D /* temperature-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temperature-2-xxl.png"; sourceTree = "<group>"; };
+		7112E0711C4D2A22004FD34D /* Measurement-Units-Humidity-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Measurement-Units-Humidity-icon.png"; sourceTree = "<group>"; };
+		7112E0731C4D4435004FD34D /* led-diode-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-diode-xxl.png"; sourceTree = "<group>"; };
 		715AA17A1C4C25180026D93C /* FunWithArduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithArduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		715AA17D1C4C25180026D93C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		715AA17E1C4C25180026D93C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +52,7 @@
 		715AA1861C4C25180026D93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715AA1891C4C25180026D93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		715AA18B1C4C25180026D93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715AA1B71C4C3BD70026D93C /* ORSSerialPort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ORSSerialPort.xcodeproj; path = "Frameworks/ORSSerialPort/Framework Project/ORSSerialPort.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715AA1C01C4C3C040026D93C /* ORSSerial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,7 @@
 			children = (
 				715AA17C1C4C25180026D93C /* FunWithArduino */,
 				715AA17B1C4C25180026D93C /* Products */,
+				715AA1B71C4C3BD70026D93C /* ORSSerialPort.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +102,23 @@
 		715AA1801C4C25180026D93C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7112E06B1C4D0E08004FD34D /* 285px-Light_bulb.png */,
+				7112E0691C4CED19004FD34D /* Arduino.png */,
+				7112E06F1C4D29FA004FD34D /* temperature-2-xxl.png */,
+				7112E0731C4D4435004FD34D /* led-diode-xxl.png */,
+				7112E0711C4D2A22004FD34D /* Measurement-Units-Humidity-icon.png */,
 				715AA1811C4C25180026D93C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715AA1B81C4C3BD70026D93C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715AA1BD1C4C3BD70026D93C /* ORSSerial.framework */,
+				715AA1BF1C4C3BD70026D93C /* ORSSerialPort Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +166,12 @@
 			mainGroup = 715AA1711C4C25180026D93C;
 			productRefGroup = 715AA17B1C4C25180026D93C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 715AA1B81C4C3BD70026D93C /* Products */;
+					ProjectRef = 715AA1B71C4C3BD70026D93C /* ORSSerialPort.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				715AA1791C4C25180026D93C /* FunWithArduino */,
@@ -128,13 +179,35 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		715AA1BD1C4C3BD70026D93C /* ORSSerial.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ORSSerial.framework;
+			remoteRef = 715AA1BC1C4C3BD70026D93C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		715AA1BF1C4C3BD70026D93C /* ORSSerialPort Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ORSSerialPort Tests.xctest";
+			remoteRef = 715AA1BE1C4C3BD70026D93C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		715AA1781C4C25180026D93C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7112E0721C4D2A22004FD34D /* Measurement-Units-Humidity-icon.png in Resources */,
+				7112E06A1C4CED19004FD34D /* Arduino.png in Resources */,
+				7112E0741C4D4435004FD34D /* led-diode-xxl.png in Resources */,
+				7112E0701C4D29FA004FD34D /* temperature-2-xxl.png in Resources */,
 				715AA1871C4C25180026D93C /* Assets.xcassets in Resources */,
 				715AA18A1C4C25180026D93C /* Main.storyboard in Resources */,
+				7112E06C1C4D0E08004FD34D /* 285px-Light_bulb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +360,7 @@
 				715AA1901C4C25180026D93C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
